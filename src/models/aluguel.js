@@ -13,9 +13,8 @@ const model = (body, id = proxId++) => {
         return {
             id,
             data_aluguel: body.data_aluguel,
-            fotos: body.fotos,
-            endereco: body.endereco,
             estudante_id: body.estudante_id,
+            livro_id: body.livro_id,
             data_devolucao: body.data_devolucao
         }
     }
